@@ -1,23 +1,14 @@
 import './style.css'
-import './index.css'
+import './reset.css'
 
-const app = document.querySelector<HTMLDivElement>('#app')!
 
-app.innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
-/*
+// {
+//   id: 1, // <- the item id matches the icon name in the assets/icons folder
+//   name: "beetroot",
+//   price: 0.35 // <- You can come up with your own prices
+// }
 
-This is how an item object should look like
 
-{
-  id: 1, // <- the item id matches the icon name in the assets/icons folder
-  name: "beetroot",
-  price: 0.35 // <- You can come up with your own prices
-}
-
-*/
 const state = {
   storeItems: [{
     id : 1 ,
